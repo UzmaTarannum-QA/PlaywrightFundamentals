@@ -10,6 +10,15 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.5.0"
+    "@types/node": "^26.5.0",
+    "allure-playwright": "^3.12.2",
+    "tsx": "^4.23.15"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.46.1",
+    "dotenv": "^18.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
   }
 }
